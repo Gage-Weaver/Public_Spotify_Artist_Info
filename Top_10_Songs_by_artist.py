@@ -71,4 +71,3 @@ if button:
             st.write(f"{songid+1}. {song['name']}")
     except: #If no artist is found tell the user and have them try again
         st.write("Sorry, It seems we can't find that artist, check your spelling and try again")
-#py -m streamlit run Top_10_Songs_by_artist.py
